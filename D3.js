@@ -251,12 +251,3 @@ console.log(randomIndex);
 console.log(
   `${starWarsCharacters[randomIndex].name} is ${starWarsCharacters[randomIndex].height}cm tall and has a mass of ${starWarsCharacters[randomIndex].mass}; his hair color is ${starWarsCharacters[randomIndex].hair_color} and his skin color is ${starWarsCharacters[randomIndex].skin_color}, while his eye color is ${starWarsCharacters[randomIndex].eye_color}. He was born in ${starWarsCharacters[randomIndex].birth_year} and he is ${starWarsCharacters[randomIndex].gender}!`
 );
-
-// name: "Obi-Wan Kenobi",
-//     height: 182,
-//     mass: 77,
-//     hair_color: "auburn, white",
-//     skin_color: "fair",
-//     eye_color: "blue-gray",
-//     birth_year: "57BBY",
-//     gender: "male"
