@@ -230,14 +230,10 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
 
 console.log("esercizio 9 prima... ", charactersNames.length);
 for (let i = 0; i < charactersNames.length; i++) {
-  switch (charactersNames[i]) {
-    case "Leia Organa":
+  for (let x = 0; x < femaleCharacters.length; x++) {
+    if (charactersNames[i] === femaleCharacters[x].name) {
       charactersNames.splice(i, 1);
-      console.log(charactersNames.length);
-      break;
-    case "Beru Whitesun lars":
-      charactersNames.splice(i, 1);
-      console.log(charactersNames.length);
+    }
   }
 }
 console.log("esercizio 9 dopo... ", charactersNames.length);
